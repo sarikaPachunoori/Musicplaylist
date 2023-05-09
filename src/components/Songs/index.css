@@ -1,0 +1,57 @@
+.item-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+.card-cont {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.card-img {
+  height: 130px;
+  width: 180px;
+  margin-right: 20px;
+}
+.names-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.name {
+  font-size: 23px;
+  font-family: 'Roboto';
+  color: #cbd5e1;
+  font-weight: 500;
+}
+.genre {
+  color: #3b82f6;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+.time-delte-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.duration {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #cbd5e1;
+  margin-right: 20px;
+}
+.del-button {
+  background-color: transparent;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+}
+.delete {
+}
